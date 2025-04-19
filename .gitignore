@@ -43,6 +43,7 @@
 *.tmp
 *.temp
 *.log
+temporary*
 
 # CMake
 CMakeFiles/
@@ -51,4 +52,15 @@ CMakeScripts/
 CMakeOutput.log
 CMakeError.log
 
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv
+
+# Custom
 dataset
+.vscode
+build
+test
